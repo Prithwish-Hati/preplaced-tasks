@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+td,
+th {
+  border: solid;
+  border-width: 1px;
+  padding: 3px;
+}
+
+thead,
+tfoot {
+  background-color: aliceblue;
+}
