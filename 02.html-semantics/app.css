@@ -1,0 +1,30 @@
+* {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+header {
+  background-color: rgb(184, 255, 231);
+}
+
+.logo {
+  font-size: 20px;
+  color: red;
+}
+
+nav {
+  background-color: blanchedalmond;
+}
+
+aside {
+  background-color: rgb(198, 185, 185);
+}
+
+footer {
+  background-color: rgb(197, 199, 255);
+}
+
+article {
+  background-color: rgb(255, 234, 0);
+}
