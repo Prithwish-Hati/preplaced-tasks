@@ -1,0 +1,37 @@
+* {
+  font-family: cursive;
+}
+
+li {
+  font-weight: 900;
+}
+
+#demo-id {
+  color: rgb(255, 132, 0);
+}
+
+.demo-class {
+  color: rgb(0, 230, 0);
+}
+
+li a {
+  color: purple;
+  font-size: 12px;
+}
+
+h3 + p {
+  font-family: sans-serif;
+  color: blue;
+}
+
+.link {
+  color: red;
+}
+
+li.dcs > p {
+  color: pink;
+}
+
+li[value="3"] {
+  color: rgb(73, 237, 255);
+}
