@@ -35,3 +35,17 @@ li.dcs > p {
 li[value="3"] {
   color: rgb(73, 237, 255);
 }
+
+article {
+  font-size: 20px;
+}
+
+button {
+  font-size: 2rem;
+  padding: 0 1em;
+  border-radius: 0.5em;
+}
+
+ul {
+  font-size: 0.8em;
+}
