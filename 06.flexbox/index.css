@@ -63,11 +63,73 @@ li > a {
   background-color: #003049;
 }
 
-.section {
-  text-align: center;
+/* Search */
+#body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+#search-container {
+  margin: 10px 20px;
+  display: flex;
+  border: 1px solid #ffb703;
+  font-size: 1rem;
+  border-radius: 5em;
+  width: 80%;
+}
+
+.search-item {
+  border-right: 1px solid #edede9;
+  padding: 0 1em;
+  flex-basis: 15%;
+}
+
+.search-item:nth-child(4) {
+  border-right: 0px;
+  flex-grow: 2;
+  flex-shrink: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-item:nth-child(1) {
+  flex-grow: 2;
+  flex-shrink: 2;
+  padding-left: 2em;
+}
+
+.head-text {
+  font-weight: 700;
+}
+
+.body-text {
+  font-weight: 200;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+img[alt="search-icon"] {
+  max-width: 30px;
+}
+
+#btn {
+  background-color: #ffb703;
+  border: 0;
+  border-radius: 50%;
+  padding: 0.5em;
+  margin: 0.5em -0.5em;
 }
 
 /* Product Gallery Section */
+.section {
+  text-align: center;
+}
 
 #product-containter {
   display: flex;
@@ -87,4 +149,54 @@ img[alt="product-img"] {
   padding: 15px;
   margin: 8px;
   align-content: flex-start;
+}
+
+/* IMAGE GALLERY */
+
+#images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edede9;
+  height: 500px;
+  gap: 20px;
+}
+
+.img {
+  width: 100px;
+}
+
+#nested-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+img[alt="eyes"],
+img[alt="portrait"] {
+  width: 150px;
+  height: 220px;
+}
+
+img[alt="landscape"],
+img[alt="road"] {
+  width: 250px;
+  height: 180px;
+}
+
+img[alt="books"],
+img[alt="car"] {
+  width: 100px;
+  height: 100px;
+}
+
+#third-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+#fourth-container {
+  display: flex;
+  gap: 20px;
 }

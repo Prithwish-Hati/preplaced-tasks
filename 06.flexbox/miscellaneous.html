@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Miscellaneous</title>
+    <link rel='stylesheet' href="miscellaneous.css">
+</head>
+
+<body>
+    <main>
+        <h1>Miscellaneous Flexbox Properties</h1>
+        <section>
+            <h2>row-direction: column</h2>
+            <p>Even though flex-items has 100px each, they are stacked within container, not overflowing.</p>
+            <article id="first-container">
+                <div id="d1" class="fc-item">d1</div>
+                <div id="d2" class="fc-item">d2</div>
+                <div id="d3" class="fc-item">d3</div>
+                <div id="d4" class="fc-item">d4</div>
+                <div id="d5" class="fc-item">d5</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>flex-wrap</h2>
+            <p> With flex-wrap each element gets their 100px height.
+            </p>
+            <article id="second-container">
+                <div id="d1" class="fc-item">d1</div>
+                <div id="d2" class="fc-item">d2</div>
+                <div id="d3" class="fc-item">d3</div>
+                <div id="d4" class="fc-item">d4</div>
+                <div id="d5" class="fc-item">d5</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>Reverse Wrapping</h2>
+            <p> With flex-wrap:wrap-reverse, the cross axis changes it's direction - instead of top to bottom, becomes
+                bottom to top in this case.
+            </p>
+            <article id="third-container">
+                <div id="d1" class="fc-item">d1</div>
+                <div id="d2" class="fc-item">d2</div>
+                <div id="d3" class="fc-item">d3</div>
+                <div id="d4" class="fc-item">d4</div>
+                <div id="d5" class="fc-item">d5</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>align-items: baseline</h2>
+            <p> aligns items at the baseline of text across cross-axis
+            </p>
+            <article id="fourth-container">
+                <div id="d1" class="fc-item">d1</div>
+                <div id="d2" class="fc-item big-text">d2</div>
+                <div id="d3" class="fc-item">d3</div>
+                <div id="d4" class="fc-item">d4</div>
+                <div id="d5" class="fc-item very-big-text">d5</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>align-content</h2>
+            <p> Controls space between rows or columns in flexbox
+            </p>
+            <article id="fifth-container">
+                <div id="d1" class="fc-item big">d1</div>
+                <div id="d2" class="fc-item big">d2</div>
+                <div id="d3" class="fc-item big">d3</div>
+                <div id="d4" class="fc-item big">d4</div>
+                <div id="d5" class="fc-item big">d5</div>
+            </article>
+        </section>
+
+        <section>
+            <h2>align-self</h2>
+            <p> Controls space between rows or columns in flexbox
+            </p>
+            <article id="sixth-container">
+                <div id="d1" class="fc-item down">d1</div>
+                <div id="d2" class="fc-item">d2</div>
+                <div id="d3" class="fc-item">d3</div>
+                <div id="d4" class="fc-item up">d4</div>
+                <div id="d5" class="fc-item">d5</div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
