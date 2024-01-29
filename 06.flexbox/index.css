@@ -1,0 +1,90 @@
+.body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img[alt="logo"] {
+  width: 100px;
+}
+
+#menu-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item:nth-child(2) {
+  flex-basis: 40%;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-item:hover {
+  font-weight: 600;
+}
+
+.nav-item:nth-child(3) > button {
+  font-size: 1rem;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  padding: 0.4em 0.9em;
+  border: 2px solid #003049;
+  border-radius: 2em;
+}
+
+#login-btn {
+  color: #003049;
+  background-color: white;
+  margin-right: 0.5rem;
+}
+
+#login-btn:hover,
+#signup-btn:hover {
+  color: white;
+  background-color: #c1121f;
+  border: 2px solid #c1121f;
+  cursor: pointer;
+}
+
+#signup-btn {
+  color: white;
+  background-color: #003049;
+}
+
+.section {
+  text-align: center;
+}
+
+/* Product Gallery Section */
+
+#product-containter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+img[alt="product-img"] {
+  width: 100%;
+  height: 200px;
+}
+
+.product-item {
+  background-color: #fdf0d5;
+  flex: 1 1 300px;
+  padding: 15px;
+  margin: 8px;
+  align-content: flex-start;
+}
