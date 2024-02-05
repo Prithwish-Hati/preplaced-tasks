@@ -143,11 +143,13 @@ img[alt="product-img"] {
   height: 200px;
 }
 
+.padding {
+  padding: 8px;
+  width: 30%;
+}
 .product-item {
   background-color: #fdf0d5;
-  flex: 1 1 300px;
   padding: 15px;
-  margin: 8px;
   align-content: flex-start;
 }
 
