@@ -1,0 +1,29 @@
+#main {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr minmax(max-content, 1000px)) min-content;
+}
+
+#div1 {
+  background-color: aquamarine;
+}
+
+#div2 {
+  background-color: rgb(255, 197, 197);
+}
+
+#div3 {
+  background-color: darkkhaki;
+}
+
+#transition {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 1em;
+  transition: background-color 1s step-end, border-radius 1s step-start;
+}
+
+#transition:hover {
+  background-color: rgb(255, 166, 102);
+  border-radius: 50%;
+}
