@@ -15,15 +15,12 @@
   background-color: darkkhaki;
 }
 
-#transition {
-  width: 100px;
-  height: 100px;
-  background-color: brown;
-  margin: 1em;
-  transition: background-color 1s step-end, border-radius 1s step-start;
-}
-
-#transition:hover {
-  background-color: rgb(255, 166, 102);
-  border-radius: 50%;
+#background {
+  margin-top: 10px;
+  width: 80vw;
+  height: 500px;
+  background-image: url(baby.png), url(mario.png),
+    linear-gradient(to right, rgb(255, 197, 197), aquamarine);
+  background-repeat: repeat;
+  background-size: 30% cover;
 }
