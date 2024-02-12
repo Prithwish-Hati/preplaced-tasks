@@ -1,0 +1,16 @@
+.container {
+    width: 700px;
+    height: 400px;
+    background: wheat;
+    display: flex;
+    overflow: auto;
+}
+
+.item {
+    min-width: 250px;
+    height: 300px;
+    background: red;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,60 @@
+.container {
+  height: 100px;
+  width: 500px;
+  background-color: pink;
+  border-radius: 15px;
+  display: flex;
+}
+
+@keyframes fillDiv1 {
+  0% {
+    width: 0%;
+  }
+
+  25% {
+    width: 25%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.item {
+  height: 100px;
+  width: 500px;
+  border-radius: 15px;
+  background-color: red;
+  animation: fillDiv1 10s ease-in forwards;
+}
+
+.nested {
+  height: 100px;
+  width: 100px;
+}
+
+/* .d1 {
+  animation: fillDiv1 2s ease-in forwards;
+  border-radius: 15px 0 0 15px;
+}
+
+.d2 {
+  animation: fillDiv1 2s ease-in 2s forwards;
+}
+
+.d3 {
+  animation: fillDiv1 2s ease-in 4s forwards;
+}
+
+.d4 {
+  animation: fillDiv1 2s ease-in 6s forwards;
+}
+
+.d5 {
+  animation: fillDiv1 2s ease-in 8s forwards;
+  border-radius: 0 15px 15px 0;
+} */
