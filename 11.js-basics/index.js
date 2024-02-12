@@ -1,3 +1,25 @@
+// IF Statements
+// let random = Math.random();
+
+// if (random < 0.5) {
+//   console.log("Your number is less than 0.5");
+// }
+
+// Ticket Price
+
+const age = 65;
+
+if (age <= 5) {
+  console.log("Ticket price: FREE!");
+} else if ( age <= 10) {
+  console.log("Ticket price: $10");
+} else if ( age < 65) {
+  console.log("Ticket price: $30");
+} else if (age >= 65) {
+  console.log("Ticket price: $25");
+}
+
+//variables
 let hens = 3;
 let roosters = 5;
 
