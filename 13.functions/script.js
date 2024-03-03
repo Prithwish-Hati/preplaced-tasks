@@ -50,18 +50,3 @@ restPara(1, 2, 3);
 //     console.log(x, y)
 // }
 // fn(5, 6, 7, 3, 2)
-
-
-
-function createBase(x) {
-  function sum(y) {
-    return x + y;
-  }
-
-  return sum;
-}
-
-console.log(addSix(10)); // Should return 16
-console.log(addSix(21)); // Should return 27
-
-
