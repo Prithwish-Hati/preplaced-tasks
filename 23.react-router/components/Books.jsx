@@ -1,5 +1,9 @@
-const Books = () => {
-  return <h1>Books</h1>;
-};
+import React from 'react'
 
-export default Books;
+const Books = () => {
+  return (
+    <h1>Books</h1>
+  )
+}
+
+export default Books
