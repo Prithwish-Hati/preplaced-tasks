@@ -109,13 +109,3 @@ document.querySelector(".products").addEventListener("click", (event) => {
 
 // Create a modal which closes by clicking on the negative space
 
-let modal = document.querySelector(".modal");
-let modalBtn = document.querySelector(".modalBtn");
-
-modalBtn.addEventListener("click", () => {
-  toggleModal(true);
-});
-
-function toggleModal(toggle) {
-  modal.style.display = toggle ? 'flex' : 'none';
-}
