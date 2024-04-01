@@ -1,20 +1,20 @@
-// const div = document.querySelector("div");
-// const form = document.querySelector("form");
-// const button = document.querySelector("button");
+const div = document.querySelector("div");
+const form = document.querySelector("form");
+const button = document.querySelector("button");
 
 // Event Bubbling
 
-// div.addEventListener("click", () => {
-//   alert("div is clicked");
-// });
+div.addEventListener("click", () => {
+  alert("div is clicked");
+}, {capture: true});
 
-// form.addEventListener("click", () => {
-//   alert("form is clicked");
-// });
+form.addEventListener("click", () => {
+  alert("form is clicked");
+}, {capture: true});
 
-// button.addEventListener("click", () => {
-//   alert("button is clicked");
-// });
+button.addEventListener("click", () => {
+  alert("button is clicked");
+}, {capture: true});
 
 // currentTarget, target, this
 

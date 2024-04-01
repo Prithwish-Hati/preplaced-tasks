@@ -108,47 +108,93 @@
 // console.log(shape.diameter())
 // console.log(shape.perimeter())
 
+// let user = {
+//   name: "Prithwish",
+//   age: 22,
+//   her: {
+//     first: "Sneha",
+//     last: "Mukherjee",
+//   },
+// };
+
+// const name = "Sneha";
+
+// const {
+//   her: { first },
+// } = user;
+
+// console.log(first);
+
+// function getItems(fruitList, favFruit, ...args) {
+//   return [...fruitList, ...args, favFruit];
+// }
+
+// console.log(getItems(["Banana", "Apple"], "Pear", "Orange"));
+
+// // [Banana, Apple, Pear, Orange]
+
+// let c = { greeting: "hey!" };
+// let d;
+
+// d = c;
+
+// c.greeting = "hello";
+// console.log(d.greeting);
+
+// console.log({ a: 1 } == { a: 1 });
+// console.log({ a: 1  } === { a: 1 });
+
+// let person = { name: "Lydia" };
+// const members = [person];
+// person.name = null;
+
+// console.log(members);
+
+// const value = { number: 10 };
+
+// const multiply = (x = { ...value }) => {
+//   console.log((x.number *= 2));
+// };
+
+// multiply();
+// multiply();
+// multiply(value);
+// multiply(value);
+
+// Q15
+// function changeAgeAndReference(person) {
+//   person.age = 25;
+//   person = {
+//     name: "John",
+//     age: 50,
+//   }
+
+//   return person
+// }
+
+// const personObj1 = {
+//   name: "Alex",
+//   age: 30,
+// }
+
+// const personObj2 = changeAgeAndReference(personObj1)
+
+// console.log(personObj1) // ? 
+// console.log(personObj2) // ? 
+
+
+// Q16
 let user = {
-  name: "Prithwish",
+  name: "Prithwish Hati",
   age: 22,
-  her: {
-    first: "Sneha",
-    last: "Mukherjee",
-  },
-};
-
-const name = "Sneha";
-
-const {
-  her: { first },
-} = user;
-
-console.log(first);
-
-function getItems(fruitList, favFruit, ...args) {
-  return [...fruitList, ...args, favFruit];
 }
 
-console.log(getItems(["Banana", "Apple"], "Pear", "Orange"));
+const objClone = Object.assign({}, user); // This does not clone nested objects
+const objClone1 = JSON.parse(JSON.stringify(user))
+const objClone2 = {...user}
 
-// [Banana, Apple, Pear, Orange]
+objClone.name = "Sneha Mukherjee"
+objClone1.name = "Sneha Mukherjee"
+objClone2.name = "Sneha Mukherjee"
 
-let c = { greeting: "hey!" };
-let d;
-
-d = c;
-
-c.greeting = "hello";
-console.log(d.greeting);
-
-console.log({ a: 1 } == { a: 1 });
-console.log({ a: 1  } === { a: 1 });
-
-let person = { name: "Lydia" };
-const members = [person];
-person = [null];
-
-console.log(members);
-
-const value = { number: 10}
-
+console.log(user, objClone, objClone1, objClone2)
